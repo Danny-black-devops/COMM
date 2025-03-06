@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="sys_class_name" label="Class" language="en" table="x_hoo_stakeholde_0_communication_template">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>sys_class_name</element>
+            <help/>
+            <hint/>
+            <label>Class</label>
+            <language>en</language>
+            <name>x_hoo_stakeholde_0_communication_template</name>
+            <plural>Class</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>adm.danny.black</sys_created_by>
+            <sys_created_on>2025-03-06 12:58:19</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Class</sys_name>
+            <sys_package display_value="Stakeholder Communications" source="x_hoo_stakeholde_0">9df628b2fb00269061f8f17daeefdc9c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Stakeholder Communications">9df628b2fb00269061f8f17daeefdc9c</sys_scope>
+            <sys_update_name>sys_documentation_x_hoo_stakeholde_0_communication_template_sys_class_name_en</sys_update_name>
+            <sys_updated_by>adm.danny.black</sys_updated_by>
+            <sys_updated_on>2025-03-06 12:58:19</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9d19283afb00269061f8f17daeefdc47" label="Communication Record" max_length="40" name="x_hoo_stakeholde_0_communication_record" type="collection">
+        <element label="Body (HTML)" max_length="8000" name="body_html" type="html"/>
+        <element label="Body (Plain Text)" max_length="10000" name="body_plain_text" type="string"/>
+        <element choice="1" label="From" max_length="40" name="from" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="ServiceNow Operations Team" sequence="0" value="ServiceNow Operations &lt;lssiprod@service-now.com&gt;"/>
+                <element inactive_on_update="false" label="ServiceNow Comms (No-Reply)" sequence="1" value="ServiceNow Comms &lt;lssiprod@service-now.com&gt;"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Send to group" max_length="4000" name="send_to_group" reference="sys_user_group" reference_qual="active=true" reference_qual_condition="active=true" type="glide_list"/>
+        <element label="Send to users" max_length="4000" name="send_to_users" reference="sys_user" reference_qual="active=true" reference_qual_condition="active=true" type="glide_list"/>
+        <element label="Subject" max_length="40" name="subject" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Template" max_length="32" name="template" reference="x_hoo_stakeholde_0_communication_template" type="reference"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index2">
+            <element name="template"/>
+        </index>
+    </element>
+</database>
